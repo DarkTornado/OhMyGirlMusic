@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    color: black;
+    font-size: 16px;
+    font-family: NanumGothic;
+}
+
+div.header {
+    padding: 14px;
+    color: white;
+    background: linear-gradient(to right, #EEA8CC, #A2BDEE);
+    font-size: 20px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+div.body {
+    padding: 12px;
+    margin: 0px auto;
+    max-width: 768px;
+}
+
+div.footer {
+    margin: 0px;
+}
+
+.textview {
+    display: block;
+    margin: 4px;
+}
+
+.edittext {
+    display: block;
+    width: 98%;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border: 0;
+    border-bottom: 1.5px solid #000000;
+    margin: 4px auto;
+}
+
+::placeholder {
+    color: #757575;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge */
+    color: #757575;
+}
+
+.button {
+    display: block;
+    background: #EEEEEE;
+    border: 0;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.5);
+    width: 98%;
+    height: 43px;
+    outline: none;
+    margin: 16px auto 2px;
+}
+
+div.table_outer {
+    padding: 8px;
+}
+
+table#result {
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+td {
+    font-size: 16px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+td.title {
+    font-size: 18px;
+    background-color: #EFE59D;
+}
+
+td.number {
+    border-left: 1px solid #000000;
+}
+
+hr {
+    margin: 0px;
+}
+
+p.copyright {
+    text-align: center;
+    font-size: 12px;
+}

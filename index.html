@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<header>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='user-scalable=no width=device-width' />
+    <title>오마이걸 노래방 번호 검색기</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</header>
+
+<body>
+    <link href='https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css' rel='stylesheet'>
+    <div class='header'>
+        오마이걸 노래방 번호 검색기
+    </div>
+    <div class='body'>
+        <div>
+            <span class='textview'>검색어 : </span>
+            <input id='input' class='edittext' placeholder='검색어 입력... (생략시 전체곡 조회)' />
+            <input class='button' type=button value='검색' onclick='search();' />
+        </div>
+        <div class='table_outer'>
+            <table id='result'></table>
+        </div>
+        <hr>
+    </div>
+    <div class='footer'>
+        <p class='copyright'>© 2025 Dark Tornado, All rights reserved.</p>
+    </div>
+    <script type='text/javascript' src='./script.js'></script>
+    <!-- script type='text/javascript'>
+        function hideTitle() { //Nusty 대응용
+            document.getElementsByClassName('header')[0].style.display = 'none';
+        }
+    </script -->
+</body>
+
+</html>
