@@ -5,7 +5,7 @@
 var data = null;
 
 async function search() {
-    if (data == null) data = await fetch('./MusicList.csv').then((res) => res.text());
+    if (data == null) data = await fetch('./MusicList.csv?_' + Date.now()).then((res) => res.text());
     searchMusic(data);
 }
 
