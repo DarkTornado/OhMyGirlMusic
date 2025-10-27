@@ -19,8 +19,8 @@ function searchMusic(data) {
         if (!data[n].toLowerCase().includes(input)) continue;
         var datum = data[n].split('::');
         src += '<tr><td colspan=2 class=title><b>' + datum[0] + '</b></td></tr>';
-        src += '<tr><td>금영</td><td class=number>' + datum[2] + '</td></tr>';
-        src += '<tr><td width=30%>태진(TJ)</td><td class=number>' + datum[1] + '</td></tr>';
+        src += '<tr><td>금영</td><td class=number>' + datum[1] + '</td></tr>';
+        src += '<tr><td width=30%>태진(TJ)</td><td class=number>' + datum[2] + '</td></tr>';
         count++;
     }
 
